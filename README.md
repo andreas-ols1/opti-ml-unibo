@@ -91,7 +91,7 @@ Best Model: Linear Regression achieved the lowest Test RMSE (~3.87) and highest 
 
 Key Predictors: Reading score had the strongest positive coefficient, demographic features had smaller effects.
 
-Residual Analysis: Errors are evenly distributed around zero with a few outliers—indicating good model fit without major bias.
+Residual Analysis: Errors are evenly distributed around zero with a few outliers, indicating good model fit without major bias.
 
 ---
 
