@@ -65,14 +65,17 @@ Build and evaluate a regression model to predict a student’s writing score bas
    From the root of the project:
 
    ```bash
+   # Make virtual environment
    python3.12 -m venv .venv
-   # MacOS / Linux
+
+   # Activate enviroment:
+   # 1. MacOS / Linux
    source venv/bin/activate
 
-   # Windows (PowerShell)
+   # 2. Windows (PowerShell)
    ./venv/Scripts/Activate.ps1
 
-   # Windows (CMD)
+   # 3. Windows (CMD)
    venv/Scripts/Activate.bat
    ```
 
@@ -86,7 +89,7 @@ Build and evaluate a regression model to predict a student’s writing score bas
 
 Best Model: Linear Regression achieved the lowest Test RMSE (~3.87) and highest R² (~0.94).
 
-Key Predictors: Reading score had the strongest positive coefficient; demographic features had smaller effects.
+Key Predictors: Reading score had the strongest positive coefficient, demographic features had smaller effects.
 
 Residual Analysis: Errors are evenly distributed around zero with a few outliers—indicating good model fit without major bias.
 
